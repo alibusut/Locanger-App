@@ -32,37 +32,45 @@
 
 ---
 
-### ◈ نظرة عامة — Overview
+<div dir="rtl">
+
+### ◈ نظرة عامة
 
 تطبيق **Locanger** هو نظام متطور وذاتي بالكامل لتغيير وتثبيت ومحاكاة إحداثيات الموقع الجغرافي (GPS) على جميع أجهزة iPhone و iPad، يعمل بكفاءة متناهية دون الحاجة لكسر حماية النظام (No Jailbreak)، وبشكل مستقل تماماً على جهازك دون الحاجة لربطه بجهاز كمبيوتر أثناء الاستخدام اليومي.
 
 تم بناء التطبيق بالاعتماد على محرك **Locanger Core™** الذكي، والذي يوفر محاكاة واقعية فائقة الدقة تتكامل بسلاسة مع كافة تطبيقات الخرائط، والتواصل الاجتماعي، والألعاب العالمية.
 
----
-
-### ◈ واجهة التطبيق — Application Interface
-
-<div align="center">
-  <table>
-    <tr>
-      <th width="33%" align="center">الوضع الداكن (Dark Mode)</th>
-      <th width="33%" align="center">الوضع الفاتح (Light Mode)</th>
-      <th width="33%" align="center">English Interface</th>
-    </tr>
-    <tr>
-      <td align="center"><img src="assets/screenshot-dark-ar.png" width="100%" alt="Locanger Dark Mode Arabic" /></td>
-      <td align="center"><img src="assets/screenshot-light-ar.png" width="100%" alt="Locanger Light Mode Arabic" /></td>
-      <td align="center"><img src="assets/screenshot-light-en.png" width="100%" alt="Locanger Light Mode English" /></td>
-    </tr>
-  </table>
 </div>
 
 ---
 
-### ◈ المواصفات والمميزات — Key Features
+<div align="center">
+
+### ◈ واجهة التطبيق — Application Interface
+
+<table>
+  <tr>
+    <th width="33%" align="center">الوضع الداكن (Dark Mode)</th>
+    <th width="33%" align="center">الوضع الفاتح (Light Mode)</th>
+    <th width="33%" align="center">English Interface</th>
+  </tr>
+  <tr>
+    <td align="center"><img src="assets/screenshot-dark-ar.png" width="100%" alt="Locanger Dark Mode Arabic" /></td>
+    <td align="center"><img src="assets/screenshot-light-ar.png" width="100%" alt="Locanger Light Mode Arabic" /></td>
+    <td align="center"><img src="assets/screenshot-light-en.png" width="100%" alt="Locanger Light Mode English" /></td>
+  </tr>
+</table>
+
+</div>
+
+---
+
+<div dir="rtl">
+
+### ◈ المواصفات والمميزات
 
 - **✦ تثبيت الموقع والانتقال الفوري (Instant Teleportation)**  
-  اختيار وتحديد أي موقع في العالم بلمسة واحدة والانتقال إليه فوراً بدقة عالية تصل إلى $\pm 5$ أمتار.
+  اختيار وتحديد أي موقع في العالم بلمسة واحدة والانتقال إليه فوراً بدقة استقرار عالية تصل إلى ±5 أمتار.
 
 - **✦ محاكاة السرعة المتعددة (Multi-Speed Motion Simulation)**  
   محاكاة حركة واقعية للمسارات مع أنماط سرعة متعددة:
@@ -85,7 +93,7 @@
 
 ---
 
-### ◈ طرق التثبيت — Installation Guide
+### ◈ طرق التثبيت
 
 #### 1. التثبيت المباشر عبر متجر آب ستار (AppStar Store) — الطريقة الرسمية والموصى بها
 
@@ -121,10 +129,12 @@
 
 ---
 
-### ◈ الأمان والخصوصية — Privacy & Security
+### ◈ الأمان والخصوصية
 
 > [!NOTE]
 > معالجة الإحداثيات وتوجيهها تتم بالكامل على معالج الجهاز (**On-Device Processing**). التطبيق لا يتصل بأي خوادم خارجية ولا يجمع أي معلومات تتعلق بالهوية أو النشاط أو سجل المواقع.
+
+</div>
 
 ---
 
