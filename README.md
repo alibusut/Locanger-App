@@ -20,11 +20,11 @@
 
 <p align="center">
   <a href="https://appstar.store">
-    <img src="https://img.shields.io/badge/%E2%9C%A7_%D8%AA%D8%AB%D8%A8%D9%8A%D8%AA_%D9%85%D8%A8%D8%A7%D8%B4%D8%B1_%D8%B9%D8%A8%D8%B1_%D9%85%D8%AA%D8%AC%D8%B1_AppStar-A3E635?style=for-the-badge&labelColor=1C300E&color=A3E635" height="38" alt="Install via AppStar" />
+    <img src="https://img.shields.io/badge/%E2%9C%A7_Install_on-AppStar_Store-A3E635?style=for-the-badge&labelColor=1C300E&color=A3E635" height="38" alt="Install on AppStar Store" />
   </a>
   &nbsp;
   <a href="https://github.com/alibusut/Locanger-App/releases/latest">
-    <img src="https://img.shields.io/badge/%E2%86%93_Download_Locanger.ipa-27272a?style=for-the-badge&labelColor=18181b&color=27272a" height="38" alt="Download IPA" />
+    <img src="https://img.shields.io/badge/%E2%86%93_Download-Locanger.ipa-27272a?style=for-the-badge&labelColor=18181b&color=27272a" height="38" alt="Download Locanger IPA" />
   </a>
 </p>
 
