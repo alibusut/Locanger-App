@@ -7,18 +7,24 @@
 **Advanced Jailed iOS Location Simulation Engine**
 
 <p align="center">
+  <a href="https://appstar.store">
+    <img src="https://img.shields.io/badge/Official_Store-AppStar.store-1C300E?style=flat-square&logo=apple&logoColor=A3E635" alt="AppStar Store" />
+  </a>
   <a href="https://github.com/alibusut/Locanger-App/releases/latest">
-    <img src="https://img.shields.io/github/v/release/alibusut/Locanger-App?color=1C300E&label=Release&style=flat-square" alt="Latest Release" />
+    <img src="https://img.shields.io/github/v/release/alibusut/Locanger-App?color=18181b&label=Release&style=flat-square" alt="Latest Release" />
   </a>
   <img src="https://img.shields.io/badge/Platform-iOS%2016.0%20—%2027.0%2B-18181b?style=flat-square" alt="iOS Support" />
-  <img src="https://img.shields.io/badge/Architecture-CoreDevice%20DDI%20%2F%20Loopback%20VPN-18181b?style=flat-square" alt="Architecture" />
-  <img src="https://img.shields.io/badge/Sideload-TrollStore%20%7C%20AltStore%20%7C%20SideStore-18181b?style=flat-square" alt="Sideloading" />
-  <img src="https://img.shields.io/badge/License-Proprietary-18181b?style=flat-square" alt="License" />
+  <img src="https://img.shields.io/badge/Engine-Locanger%20Core%E2%84%A2-18181b?style=flat-square" alt="Locanger Core" />
+  <img src="https://img.shields.io/badge/Security-100%25%20On--Device-18181b?style=flat-square" alt="On-Device" />
 </p>
 
 <p align="center">
+  <a href="https://appstar.store">
+    <img src="https://img.shields.io/badge/%E2%9C%A7_%D8%AA%D8%AB%D8%A8%D9%8A%D8%AA_%D9%85%D8%A8%D8%A7%D8%B4%D8%B1_%D8%B9%D8%A8%D8%B1_%D9%85%D8%AA%D8%AC%D8%B1_AppStar-A3E635?style=for-the-badge&labelColor=1C300E&color=A3E635" height="38" alt="Install via AppStar" />
+  </a>
+  &nbsp;
   <a href="https://github.com/alibusut/Locanger-App/releases/latest">
-    <img src="https://img.shields.io/badge/%E2%86%93_Download_Locanger.ipa-A3E635?style=for-the-badge&labelColor=1C300E&color=A3E635" height="38" alt="Download IPA" />
+    <img src="https://img.shields.io/badge/%E2%86%93_Download_Locanger.ipa-27272a?style=for-the-badge&labelColor=18181b&color=27272a" height="38" alt="Download IPA" />
   </a>
 </p>
 
@@ -28,9 +34,9 @@
 
 ### ◈ نظرة عامة — Overview
 
-تطبيق **Locanger** هو محرك برمجي متكامل لتغيير وتثبيت ومحاكاة إحداثيات الموقع الجغرافي (GPS) على جميع أجهزة iPhone و iPad دون الحاجة لكسر حماية النظام (No Jailbreak)، وبشكل ذاتي ومستقل تماماً على الجهاز دون الحاجة لربطه بجهاز كمبيوتر أثناء الاستخدام.
+تطبيق **Locanger** هو نظام متطور وذاتي بالكامل لتغيير وتثبيت ومحاكاة إحداثيات الموقع الجغرافي (GPS) على جميع أجهزة iPhone و iPad، يعمل بكفاءة متناهية دون الحاجة لكسر حماية النظام (No Jailbreak)، وبشكل مستقل تماماً على جهازك دون الحاجة لربطه بجهاز كمبيوتر أثناء الاستخدام اليومي.
 
-يعتمد المحرك على تكامل تقني مباشر بين بروتوكول **Apple CoreDevice DDI** ونفق محلي معزول (**Internal Loopback Split-Tunnel NetworkExtension**)، مما يتيح حقن الإحداثيات مباشرة إلى خدمة الموقع المركزية (`locationd`) في نظام iOS بدقة واستقرار تام.
+تم بناء التطبيق بالاعتماد على محرك **Locanger Core™** الذكي، والذي يوفر محاكاة واقعية فائقة الدقة تتكامل بسلاسة مع كافة تطبيقات الخرائط، والتواصل الاجتماعي، والألعاب العالمية.
 
 ---
 
@@ -53,7 +59,7 @@
 
 ---
 
-### ◈ المواصفات الهندسية والمميزات — Key Features
+### ◈ المواصفات والمميزات — Key Features
 
 - **✦ تثبيت الموقع والانتقال الفوري (Instant Teleportation)**  
   اختيار وتحديد أي موقع في العالم بلمسة واحدة والانتقال إليه فوراً بدقة عالية تصل إلى $\pm 5$ أمتار.
@@ -66,36 +72,39 @@
   - **نمط الطيران (Flight)**: سرعة تنقل فائقة للمسافات البعيدة (60.0 م/ث).
 
 - **✦ مساعد البيانات الخلوية (Cellular Assistant)**  
-  نظام تكيف ذكي يسمح بتثبيت وتأكيد إحداثيات الموقع حتى أثناء الاتصال بشبكات الهاتف الخلوية (4G / 5G) دون تشتت الإشارة مع أبراج التغطية، عبر تسلسل تهيئة سريع ومباشر.
+  نظام ذكي فريد يسمح بتثبيت إحداثيات الموقع بكفاءة واستقرار حتى أثناء الاتصال بشبكات الهاتف الخلوية (4G / 5G) دون تشتت الإشارة، عبر خطوات تهيئة مبسطة وسريعة.
 
 - **✦ عصا التحكم الافتراضية العائمة (Floating Virtual Joystick)**  
-  أداة تحكم سلسة على الشاشة تتيح المناورة واستكشاف المحيط في جميع الاتجاهات بزوايا دقيقة.
+  أداة تحكم عائمة وسلسة على الشاشة تتيح المناورة واستكشاف المحيط في جميع الاتجاهات بحرية تامة أثناء تشغيل التطبيقات الأخرى.
 
-- **✦ نفق شبكة محلي آمن (Zero-Exposure Loopback Tunnel)**  
-  نفق الـ VPN يعمل كلياً داخل عنوان الحلقة المحلية (`127.0.0.1`) لمخاطبة خدمات النظام فقط. لا يتم توجيه أو تسجيل أي حزم بيانات خارج جهازك، مما يحافظ على الخصوصية والسرعة الأصلية لاتصالك.
+- **✦ أمان وخصوصية محلية 100% (Zero-Exposure Processing)**  
+  تتم جميع عمليات المحاكاة داخلياً على معالج الجهاز دون إرسال أو توجيه أي بيانات خارج هاتفك، مما يحافظ على الخصوصية التامة وسرعة اتصالك الطبيعية.
 
 - **✦ لغة تصميم Apple Liquid Glass**  
-  واجهات مستخدم مريحة للعين تدعم التباين العالي والتناغم اللوني الدقيق للوضعين الليلي والنهاري، مع دعم تلقائي كامل للغتين العربية والإنجليزية.
+  واجهات مستخدم زجاجية مريحة للعين تدعم التباين العالي والتناغم اللوني الدقيق للوضعين الليلي والنهاري، مع دعم تلقائي كامل للغتين العربية والإنجليزية.
 
 ---
 
-### ◈ طرق التثبيت والتشغيل — Installation
+### ◈ طرق التثبيت — Installation Guide
+
+#### 1. التثبيت المباشر عبر متجر آب ستار (AppStar Store) — الطريقة الرسمية والموصى بها
 
 > [!TIP]
-> يوصى باستخدام **TrollStore** للحصول على أفضل تجربة وتفعيل دائم دون الحاجة لإعادة التوقيع أسبوعياً.
+> يوصى بتثبيت التطبيق مباشرة عبر **متجر آب ستار** للحصول على تثبيت فوري بضغطة زر واحدة، مع توقيع مستقر ودعم التحديثات المباشرة دون الحاجة لأجهزة كمبيوتر.
 
-#### 1. التثبيت عبر TrollStore (iOS 14.0 — 17.0)
+1. توجه إلى الموقع الرسمي للمتجر: **[appstar.store](https://appstar.store)**
+2. ابحث عن تطبيق **Locanger** داخل المتجر.
+3. اضغط على **تثبيت (Install)** لتنزيل التطبيق مباشرة على شاشتك الرئيسية والبدء باستخدامه فوراً.
+
+---
+
+#### 2. التثبيت اليدوي عبر ملف الـ IPA (Sideloading)
+
+لمن يفضل تثبيت وتوقيع التطبيق يدوياً باستخدام أدوات التوقيع الخاصة:
+
 1. حمّل ملف `Locanger.ipa` من [صفحة الإصدارات الرسمية](https://github.com/alibusut/Locanger-App/releases/latest).
-2. افتح الملف واضغط **Share** ثم اختر **TrollStore**.
-3. اضغط **Install**. التطبيق سيعمل بكامل صلاحياته مباشرة.
-
-#### 2. التثبيت عبر AltStore / SideStore
-1. حمّل ملف `Locanger.ipa` إلى تطبيق الملفات على جهازك.
-2. افتح **AltStore** أو **SideStore** وانتقل إلى تبويب **My Apps**.
-3. اضغط على أيقونة `+` واختر الملف لإتمام التوقيع والتثبيت.
-
-#### 3. التثبيت عبر أدوات التوقيع الأخرى (Scarlet / LiveContainer / ESign)
-- يدعم التطبيق التثبيت عبر الشهادات المباشرة وشهادات المطورين على كافة إصدارات iOS.
+2. افتح الملف عبر أداة التوقيع المفضلة لديك (مثل **AltStore**, **SideStore**, **ESign**, **Scarlet** أو أي أداة توقيع شخصية).
+3. أتمم عملية التوقيع وسيظهر التطبيق على شاشتك الرئيسية.
 
 ---
 
@@ -120,5 +129,11 @@
 ---
 
 <div align="center">
+  <a href="https://appstar.store">
+    <img src="assets/appstar.png" width="48" height="48" alt="AppStar Store" style="border-radius: 12px; margin-bottom: 8px;" />
+  </a>
+  <br />
+  <sub>متوفر رسمياً على <b><a href="https://appstar.store">متجر آب ستار (AppStar Store)</a></b></sub>
+  <br />
   <sub>هندسة وتطوير: <b>Ali Latif (@alibusut)</b> • جميع الحقوق محفوظة</sub>
 </div>
